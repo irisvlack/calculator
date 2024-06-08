@@ -1,0 +1,35 @@
+# Scientific Calculator
+
+This is a web-based scientific calculator that allows users to perform various mathematical operations and functions.
+
+## Features
+
+- Basic arithmetic operations: addition, subtraction, multiplication, and division.
+- Advanced functions: square root, exponentiation, logarithms, trigonometric functions (sin, cos, tan), and more.
+- Clear button to reset the input.
+- Neon-themed design with shades of white, grey, and black.
+- Responsive layout for desktop and mobile devices.
+- Animated background for a modern look.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- PHP (for server-side operations)
+
+## How to Use
+
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your web browser.
+3. Enter numbers and select operations using the buttons provided.
+4. Click the "=" button to calculate the result.
+5. Clear the input by clicking the "C" button.
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
