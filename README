@@ -13,23 +13,37 @@ This is a web-based scientific calculator that allows users to perform various m
 
 ## Technologies Used
 
-- HTML,
-- CSS,
-- JavaScript,
-- PHP (for server-side operations).
+- HTML
+- CSS
+- JavaScript
+- PHP (for server-side operations)
 
-## How to Use
+## Documentation
 
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in your web browser.
-3. Enter numbers and select operations using the buttons provided.
-4. Click the "=" button to calculate the result.
-5. Clear the input by clicking the "C" button.
+### Implementation Approach
 
-## Contributing
+The calculator is implemented as a web application using HTML, CSS, JavaScript for the client-side functionality, and PHP for server-side operations. Here's an overview of the implementation approach:
 
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+1. **HTML Structure**: The calculator's layout is created using HTML tables to organize the buttons and display.
+2. **Styling**: CSS is used to style the calculator, giving it a neon-themed appearance with shades of white, grey, and black.
+3. **Client-side Scripting**: JavaScript handles user interactions such as button clicks and performs calculations based on the selected operations.
+4. **Server-side Processing**: PHP is used for server-side processing, such as storing and retrieving cookies for maintaining state across page reloads.
+5. **Responsive Design**: The layout is designed to be responsive, adapting to different screen sizes for optimal user experience.
 
-## License
+## Testing Instructions
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+To test the calculator locally using PHP and a web server, follow these steps:
+
+1. **Clone the Repository**: Clone the repository containing the calculator code to your local machine using Git.
+
+2. **Set Up a Local Development Environment**:
+   - If you don't have PHP installed on your machine, download and install it from the [official PHP website](https://www.php.net/downloads).
+   - Optionally, you can use a local development environment like XAMPP, WAMP, or MAMP, which includes PHP, Apache, and MySQL pre-configured.
+
+3. **Start the Web Server**:
+   - If you're using PHP's built-in web server, open a terminal or command prompt, navigate to the directory containing the calculator code, and run the following command:
+     ```
+     php -S localhost:8000
+     ```
+     Replace `8000` with the desired port number.
+   - If you're using XAMPP, WAMP, or MAMP, start the respective server software and ensure that Apache is running.
